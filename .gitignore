@@ -36,3 +36,6 @@ lerna-debug.log*
 
 # NextJS
 .next
+
+# Git Credential Store
+.git_credential_store
