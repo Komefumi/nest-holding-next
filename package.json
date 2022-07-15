@@ -4,7 +4,7 @@
   "description": "",
   "author": "",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "NODE_ENV=production nest build && cd src/client && next build",
@@ -25,7 +25,6 @@
     "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
-    "nest-next": "^10.0.0",
     "next": "^12.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
