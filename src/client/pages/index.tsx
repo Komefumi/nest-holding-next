@@ -1,6 +1,6 @@
-import { FC } from 'react';
+import { NextPage } from 'next';
 
-const Home: FC = () => {
+const Home: NextPage = () => {
   return <h1>Guess</h1>;
 };
 
